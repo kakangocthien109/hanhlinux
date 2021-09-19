@@ -7,7 +7,7 @@ var headerContent = `
 <a href="https://github.com/hanhlinux/hanhlinux/wiki"
   ><i class="ri-book-open-fill"></i> Wiki</a
 >
-<a href="#"><i class="ri-contacts-book-2-fill"></i> Contact</a>
+<a href="https://www.facebook.com/conuxnightcore"><i class="ri-contacts-book-2-fill"></i> Contact</a>
 <a href="https://osdn.net/projects/hanhlinuxiso/"
   ><i class="ri-download-2-fill"></i> Download</a
 >
