@@ -1,12 +1,12 @@
 /* Body background */
 body {
-  background-color: #2e3440;
+  background-color: #ECEFF4;
   font-family: "Open Sans", sans-serif;
 }
 /* Navigation bar */
 
 .topnav {
-  background-color: #e5e9f0;
+  background-color: #81A1C1;
   overflow: hidden;
   border-radius: 20px;
   margin: 1em;
@@ -15,7 +15,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -23,14 +23,10 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #2e3440;
-  color: white;
+  background-color: #ECEFF4;
+  color: black;
 }
 
-.topnav a.active {
-  background-color: #04aa6d;
-  color: white;
-}
 
 .topnav .icon {
   display: none;
@@ -73,14 +69,11 @@ body {
   padding-left: 3px;
 }
 
-.navbar-brand:hover {
-  background-color: #2e3440;
-}
 
 /* Heading */
 .heading-1 {
   padding-top: 8em;
-  color: #d8dee9;
+  color: #2E3440;
 }
 
 .heading-2 {
@@ -89,12 +82,12 @@ body {
   letter-spacing: 5px;
   padding-bottom: 4em;
   display: inline-block !important;
-  color: #d8dee9;
+  color: #2E3440;
   letter-spacing: 15px;
 }
 
 .hanhlinux {
-  color: #d8dee9;
+  color: #2E3440;
 }
 
 .hanhlinux h2 {

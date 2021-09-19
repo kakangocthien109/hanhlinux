@@ -1,9 +1,7 @@
 var headerContent = `
 <div class="topnav fixed-top" id="myTopnav">
 <div>
-  <a href="index.html" style="padding: 0px" target="_blank">
     <img src="assets/img/logo.svg" class="navbar-brand"
-  /></a>
 </div>
 <a href="index.html">Hanh Linux</a>
 <a href="index.html"><i class="ri-home-2-line"></i> Home</a>
