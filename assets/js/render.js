@@ -22,7 +22,7 @@ var footerContent = `
 
 <div class="topnav fixed-bottom text-center" id="myTopnav">
 
-<a href="index.html" class="footer-link text-center">Ⓒ Hanh Linux 2021</a>
+<a href="index.html" class="footer-link text-center"><i class="ri-copyright-fill"></i>  Hanh Linux 2021</a>
 
 <div style="float: right">
 <a href="https://github.com/hanhlinux"
