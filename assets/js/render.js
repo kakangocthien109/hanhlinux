@@ -1,9 +1,8 @@
 var headerContent = `
 <div class="topnav fixed-top" id="myTopnav">
-<div>
+<div style="padding-left: 1em;">
     <img src="assets/img/logo.svg" class="navbar-brand"
 </div>
-<a href="index.html">Hanh Linux</a>
 <a href="index.html"><i class="ri-home-2-line"></i> Home</a>
 <a href="https://github.com/hanhlinux/hanhlinux/wiki"
   ><i class="ri-book-open-fill"></i> Wiki</a
@@ -12,9 +11,7 @@ var headerContent = `
 <a href="https://osdn.net/projects/hanhlinuxiso/"
   ><i class="ri-download-2-fill"></i> Download</a
 >
-<a href="https://github.com/hanhlinux"
-  ><i class="ri-github-fill"></i> GitHub</a
->
+
 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   <i class="ri-bar-chart-horizontal-fill"></i>
 </a>
@@ -25,7 +22,18 @@ var footerContent = `
 
 <div class="topnav fixed-bottom text-center" id="myTopnav">
 
-<a href="index.html" class="footer-link text-center">Ⓒ Hanh Linux 2021. All right reserved.</a>
+<a href="index.html" class="footer-link text-center">Ⓒ Hanh Linux 2021</a>
+
+<div style="float: right">
+<a href="https://github.com/hanhlinux"
+  ><i class="ri-github-fill"></i></a
+>
+<a href="https://discord.com/invite/ba8weSjQnF"><i class="ri-discord-fill"></i>
+  </a>
+  <a href="  https://www.facebook.com/conuxnightcore
+  "><i class="ri-facebook-box-fill"></i></a>
+
+</div>
 </div>
     
 `;
