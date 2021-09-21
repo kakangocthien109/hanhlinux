@@ -32,7 +32,7 @@ body {
     display: none;
   }
 
-  .topnav i {
+  i {
     display: block;
     float: right !important;
   }
@@ -152,10 +152,6 @@ li {
   .hanh {
     display: none;
   }
-}
-
-.footer i {
-  float: right;
 }
 
 .hanh {
