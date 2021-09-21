@@ -108,3 +108,13 @@ li {
 .copyright {
   line-height: 160%;
 }
+
+.footer-link {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link:hover {
+  background-color: #81a1c1 !important;
+}

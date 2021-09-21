@@ -112,3 +112,14 @@ li {
 .copyright:hover {
   color: #eceff4 !important;
 }
+
+
+.footer-link {
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link:hover {
+  background-color: #eceff4 !important;
+}
