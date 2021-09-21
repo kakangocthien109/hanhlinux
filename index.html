@@ -5,16 +5,6 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
     <title>Hanh Linux - Home</title>
-    <meta content="" name="description" />
-
-    <meta content="" name="keywords" />
-
-    <!-- Favicons -->
-    <link href="https://avatars.githubusercontent.com/u/58879335" rel="icon" />
-    <link
-      href="https://avatars.githubusercontent.com/u/58879335"
-      rel="apple-touch-icon"
-    />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -26,17 +16,12 @@
 
     <!-- Vendor CSS Files -->
     <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      href="assets/css/bootstrap.min.css"
       rel="stylesheet"
     />
     <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
-    />
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/regular.min.js"
     />
 
     <!-- Main CSS File -->
@@ -45,7 +30,28 @@
   </head>
 
   <body>
-    <header id="header"></header>
+    <header id="header">
+      <div class="topnav fixed-top" id="myTopnav">
+        <div style="padding-left: 1em">
+          <img src="assets/img/logo.svg" class="navbar-brand" />
+        </div>
+
+        <div class="nav-right">
+          <a href="index.html"
+            ><i class="ri-home-2-line"></i>
+            <span class="navbar-link"> Home</span></a
+          >
+          <a href="https://github.com/hanhlinux/hanhlinux/wiki"
+            ><i class="ri-book-open-fill"></i
+            ><span class="navbar-link"> Wiki</span></a
+          >
+          <a href="https://osdn.net/projects/hanhlinuxiso/"
+            ><i class="ri-download-2-fill"></i>
+            <span class="navbar-link"> Download</span></a
+          >
+        </div>
+      </div>
+    </header>
 
     <div class="text-center">
       <p class="fs-1 heading-1">You've just reached</p>
@@ -107,13 +113,21 @@
     <br /><br />
     <br /><br />
 
-    <footer id="footer"></footer>
+    <footer id="footer">
+      <div class="topnav fixed-bottom text-center" id="myTopnav">
+        <a href="index.html" class="footer-link text-center">Hanh Linux 2021</a>
+
+        <div style="float: right">
+          <a href="https://github.com/hanhlinux"
+            ><i class="ri-github-fill"></i
+          ></a>
+          <a href="https://discord.com/invite/ba8weSjQnF"
+            ><i class="ri-discord-fill"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js "></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js "></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js "></script>
-    <script src="assets/js/main.js "></script>
-    <script src="assets/js/render.js"></script>
   </body>
 </html>

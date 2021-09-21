@@ -1,5 +1,3 @@
-
-
 /* Body background */
 body {
   background-color: #eceff4;
@@ -29,17 +27,14 @@ body {
   color: black;
 }
 
-.topnav .icon {
-  display: none;
-}
-
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {
+  .navbar-link {
     display: none;
   }
-  .topnav a.icon {
-    float: right;
+
+  i {
     display: block;
+    float: right !important;
   }
 }
 
@@ -107,8 +102,5 @@ li {
 
 .button {
   background-color: #e5e9f0 !important;
-  border: 4px solid #D8DEE9 !important;
+  border: 4px solid #d8dee9 !important;
 }
-
-
-
