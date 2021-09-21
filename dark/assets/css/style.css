@@ -1,12 +1,12 @@
 /* Body background */
 body {
-  background-color: #2E3440;
+  background-color: #2e3440;
   font-family: "Open Sans", sans-serif;
 }
 /* Navigation bar */
 
 .topnav {
-  background-color: #D8DEE9;
+  background-color: #d8dee9;
   overflow: hidden;
   border-radius: 20px;
   margin: 1em;
@@ -68,7 +68,7 @@ body {
 /* Heading */
 .heading-1 {
   padding-top: 8em;
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .heading-2 {
@@ -77,12 +77,12 @@ body {
   letter-spacing: 5px;
   padding-bottom: 4em;
   display: inline-block !important;
-  color: #D8DEE9;
+  color: #d8dee9;
   letter-spacing: 15px;
 }
 
 .hanhlinux {
-  color: #D8DEE9;
+  color: #d8dee9;
 }
 
 .hanhlinux h2 {
@@ -110,7 +110,7 @@ li {
 } */
 
 .copyright:hover {
-  color: #D8DEE9 !important;
+  color: #d8dee9 !important;
 }
 
 .footer-link {
@@ -142,7 +142,7 @@ li {
   padding-right: 0 !important;
 }
 
-.footer a { 
+.footer a {
   text-decoration: none;
 }
 
@@ -154,12 +154,26 @@ li {
     padding-right: 0.5em;
     display: flex;
   }
-  
+
   .footer-right {
     padding-right: 0.5em !important;
   }
 
-  .footer-left { 
+  .footer-left {
     padding-right: 0 !important;
+  }
+
+  .hanh {
+    display: none;
+  }
+}
+
+.hanh {
+  line-height: 160%;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .hanh {
+    display: none;
   }
 }
