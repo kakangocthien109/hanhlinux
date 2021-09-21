@@ -128,7 +128,7 @@ li {
   padding-right: 0 !important;
 }
 
-.footer a { 
+.footer a {
   text-decoration: none;
 }
 
@@ -140,12 +140,27 @@ li {
     padding-right: 0.5em;
     display: flex;
   }
-  
+
   .footer-right {
     padding-right: 0.5em !important;
   }
 
-  .footer-left { 
+  .footer-left {
     padding-right: 0 !important;
   }
+
+  .hanh {
+    display: none;
+  }
+}
+
+
+.hanh {
+  line-height: 160%;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+ .hanh { display:none;}
+  
 }
