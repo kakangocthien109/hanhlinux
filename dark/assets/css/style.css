@@ -1,9 +1,25 @@
-/* Body background */
+/*===========================================
+|    Hanh Linux 2021 - CSS Homepage File    |
+===========================================*/
+/* Contributors:
+- kun (main dev)
+- nguyennt.dev (main dev)
+- th1nhhdk (idea)
+- Rek Weekode (idea)
+*/
+
+/*===========================================
+|             Global background             |
+===========================================*/
+
 body {
   background-color: #2e3440;
   font-family: "Open Sans", sans-serif;
 }
-/* Navigation bar */
+
+/*===========================================
+|               Navigation bar              |
+===========================================*/
 
 .topnav {
   background-color: #d8dee9;
@@ -65,7 +81,10 @@ body {
   padding-left: 3px;
 }
 
-/* Heading */
+/*===========================================
+|                   Heading                 |
+===========================================*/
+
 .heading-1 {
   padding-top: 8em;
   color: #d8dee9;
@@ -104,14 +123,10 @@ li {
   background-color: #d8dee9 !important;
   border: 4px solid #e5e9f0 !important;
 }
-/* 
-.copyright {
-  line-height: 160%;
-} */
 
-.copyright:hover {
-  color: #d8dee9 !important;
-}
+/*===========================================
+|                    Footer                 |
+===========================================*/
 
 .footer-link {
   float: right !important;
@@ -177,3 +192,7 @@ li {
     display: none;
   }
 }
+
+/*===========================================
+|                END OF FILE                |
+===========================================*/
