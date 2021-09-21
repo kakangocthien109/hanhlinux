@@ -32,7 +32,7 @@ body {
     display: none;
   }
 
-  i {
+  .topnav i {
     display: block;
     float: right !important;
   }
@@ -154,13 +154,17 @@ li {
   }
 }
 
+.footer i {
+  display: inline-block;
+  float: right;
+}
 
 .hanh {
   line-height: 160%;
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
- .hanh { display:none;}
-  
+  .hanh {
+    display: none;
+  }
 }
