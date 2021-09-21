@@ -110,18 +110,19 @@ body {
 
 .hanhlinux p,
 li {
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
+.button {
+  background-color: #e5e9f0 !important;
+  border: 4px solid #d8dee9 !important;
+  font-size: 1.7em;
+  padding: 0.1em;
+}
 .footer-link:hover {
   color: black !important;
   background-color: #3b4252 !important;
   text-align: center;
-}
-
-.button {
-  background-color: #d8dee9 !important;
-  border: 4px solid #e5e9f0 !important;
 }
 
 /*===========================================
